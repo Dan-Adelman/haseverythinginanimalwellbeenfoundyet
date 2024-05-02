@@ -4,6 +4,14 @@
     <title>haseverythinginanimalwellbeenfoundyet</title>
 </head>
 <body>
-    no
+<p>no</p>
+    <div id="days"></div>
+    
+    <script>
+        const date = new Date();
+        var daysPast = Math.floor((date.getTime() - 1715259608000) / 86400000);
+        document.getElementById("days").innerHTML = "for " + daysPast + " days";
+    </script>
 </body>
+</html>
 </html>
